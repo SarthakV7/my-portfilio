@@ -25,7 +25,7 @@ const CursorGlow = () => {
     return () => {
       window.removeEventListener('mousemove', moveCursor)
     }
-  }, [])
+  }, [cursorX, cursorY])
 
   return (
     <motion.div
@@ -233,7 +233,7 @@ export default function EnhancedInteractivePortfolio() {
 
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)
-  }, [])
+  }, [sectionRefs])
 
   const scrollToSection = (section) => {
     sectionRefs[section].current.scrollIntoView({ behavior: 'smooth' })

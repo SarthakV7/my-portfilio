@@ -1,11 +1,11 @@
 'use client'
 
 import React, { useEffect, useRef, useState, useCallback } from 'react'
-import { motion, useAnimation, useMotionValue, useSpring, AnimatePresence } from 'framer-motion'
+import { motion, useAnimation, useMotionValue, useSpring } from 'framer-motion'
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import type { Container, Engine } from "tsparticles-engine";
-import { ChevronDown, Github, Linkedin, Mail, ExternalLink, Award, Book, Code, FileText } from 'lucide-react'
+import { ChevronDown, Github, Linkedin, Mail, Award, Book, Code, FileText } from 'lucide-react'
 
 const CursorGlow = () => {
   const cursorX = useMotionValue(-100)
@@ -313,14 +313,14 @@ export default function EnhancedInteractivePortfolio() {
             <p className="mb-4 text-lg">
               With a proven track record of developing AI/ML solutions, I excel at extracting valuable
               insights from unstructured data, leveraging expertise in prompt engineering, GPU
-              computing, and transformer-based architectures. I've successfully fine-tuned models like
+              computing, and transformer-based architectures. I&apos;ve successfully fine-tuned models like
               LLaMA, Mistral, BERT, and other state-of-the-art language models using Hugging Face
               Transformers, Bits & Bytes, and Langchain.
             </p>
             <p className="text-lg">
               I am driven by a passion to apply my knowledge and skills in real-world applications,
               continually seeking innovative ways to leverage data for impactful results. With strong
-              communication skills and a willingness to relocate, I'm excited to collaborate with
+              communication skills and a willingness to relocate, I&apos;m excited to collaborate with
               forward-thinking organizations.
             </p>
           </AnimatedCard>

@@ -744,6 +744,17 @@ export default function EnhancedInteractivePortfolio() {
               </li>
             </ul>
           </div>
+          <li>
+            <motion.a
+              href="https://sarthakv7.github.io/my_folio/teaching/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-lg bg-white bg-opacity-0 p-2 transition-all hover:bg-opacity-30 flex items-center justify-center cursor-pointer w-full"
+              whileHover={{ scale: 1.03, backgroundColor: 'rgba(160, 21, 62, 0.3)' }}
+            >
+              <p className="text-sap-green text-center">More Certifications</p>
+            </motion.a>
+          </li>
           </AnimatedCard>
         </div>
       </section>

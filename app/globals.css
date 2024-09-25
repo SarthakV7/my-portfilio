@@ -9,8 +9,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #00224D;
+    --foreground: #010101;
   }
 }
 
@@ -24,4 +24,24 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+/* :root {
+  --sulphur-u: #FF204E; 
+  --neon-pink: #A0153E;
+  --neon-green: #A0153E;
+  --font-primary: #F0F0F0;
+  --font-secondary: #969696;
+} */
+
+:root {
+  --sulphur-yellow: #FF204E; 
+  --sap-green: #A0153E;
+  --font-primary: #F0F0F0;
+  --font-secondary: #969696;
+}
+
+body {
+  background-color: black;
+  color: white;
 }

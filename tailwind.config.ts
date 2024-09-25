@@ -11,6 +11,10 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'sulphur-yellow': 'var(--sulphur-yellow)',
+        'sap-green': 'var(--sap-green)',
+        'font-primary': 'var(--font-primary)',
+        'font-secondary': 'var(--font-secondary)',
       },
     },
   },

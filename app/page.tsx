@@ -235,9 +235,17 @@ export default function EnhancedInteractivePortfolio() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [sectionRefs])
 
-  const scrollToSection = (section) => {
-    sectionRefs[section].current.scrollIntoView({ behavior: 'smooth' })
-  }
+  const scrollToSection = (sectionKey: string) => {
+    const section = sectionRefs[sectionKey].current;
+    if (section) {
+      const navHeight = 64; // Adjust this value to match your navigation bar height
+      const sectionTop = section.offsetTop - navHeight;
+      window.scrollTo({
+        top: sectionTop,
+        behavior: 'smooth'
+      });
+    }
+  };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-black to-gray-900 text-white pt-16 sm:pt-20">

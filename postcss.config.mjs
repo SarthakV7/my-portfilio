@@ -1,8 +1,10 @@
-/** @type {import('postcss-load-config').Config} */
-const config = {
-  plugins: {
-    tailwindcss: {},
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export',
+  basePath: '/my-portfolio', // Replace with your repository name
+  images: {
+    unoptimized: true,
   },
 };
 
-export default config;
+export default nextConfig;

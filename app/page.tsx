@@ -7,6 +7,7 @@ import { loadFull } from "tsparticles";
 import type { Container, Engine } from "tsparticles-engine";
 import { ChevronDown, Github, Linkedin, Mail, Award, Book, Code, FileText } from 'lucide-react'
 
+
 const CursorGlow = () => {
   const cursorX = useMotionValue(-100)
   const cursorY = useMotionValue(-100)

@@ -106,7 +106,7 @@ const ParticleBackground = () => {
               enable: true,
               area: 800,
             },
-            value: 80,
+            value: 100,
           },
           opacity: {
             value: 0.5,
@@ -240,12 +240,12 @@ export default function EnhancedInteractivePortfolio() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-black to-gray-900 text-white">
+    <div className="min-h-screen bg-gradient-to-br from-black to-gray-900 text-white pt-16 sm:pt-20">
       <CursorGlow />
       <ParticleBackground />
 
       <nav className="fixed top-0 left-0 right-0 z-50 bg-black bg-opacity-20 backdrop-blur-md">
-        <ul className="flex justify-center space-x-4 p-4 text-sm md:space-x-8 md:text-base">
+        <ul className="flex flex-wrap justify-center space-x-4 p-4 text-sm md:space-x-8 md:text-base">
           {Object.keys(sectionRefs).map((section) => (
             <li key={section}>
               <button
@@ -329,7 +329,7 @@ export default function EnhancedInteractivePortfolio() {
 
       <section
         ref={sectionRefs.skills}
-        className="flex min-h-screen items-center justify-center py-8 px-8 -mt-32"
+        className="flex min-h-screen items-center justify-center py-8 px-8"
       >
         <div className="max-w-4xl w-full">
           <h2 className="mb-12 text-4xl font-bold text-sulphur-yellow text-center">Skills</h2>
@@ -457,7 +457,7 @@ export default function EnhancedInteractivePortfolio() {
 
       <section
         ref={sectionRefs.publications}
-        className="flex min-h-screen items-center justify-center py-8 px-8 -mt-6"
+        className="flex min-h-screen items-center justify-center py-8 px-8"
       >
         <div className="max-w-4xl text-center space-y-4">
           <h2 className="mb-8 text-4xl font-bold text-sulphur-yellow">Publications</h2>
@@ -542,7 +542,7 @@ export default function EnhancedInteractivePortfolio() {
 
       <section
         ref={sectionRefs.projects}
-        className="flex min-h-screen items-center justify-center py-8 px-8 -mt-20"
+        className="flex min-h-screen items-center justify-center py-8 px-8"
       >
         <div className="max-w-4xl text-center space-y-4">
           <h2 className="mb-8 text-4xl font-bold text-sulphur-yellow">Projects</h2>
@@ -761,7 +761,7 @@ export default function EnhancedInteractivePortfolio() {
 
       <section
         ref={sectionRefs.contact}
-        className="flex min-h-screen items-center justify-center py-8 px-8 -mt-64"
+        className="flex min-h-screen items-center justify-center py-8 px-8"
       >
         <div className="max-w-4xl text-center">
           <h2 className="mb-8 text-4xl font-bold text-sulphur-yellow">Contact</h2>

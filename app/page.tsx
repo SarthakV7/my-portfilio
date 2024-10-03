@@ -574,17 +574,17 @@ export default function EnhancedInteractivePortfolio() {
             </AnimatedCard>
             <AnimatedCard delay={0.3}>
             <a 
-              href="https://your-project-url.com/ai-chatbot" 
+              href="https://github.com/SarthakV7/TableTalk_AI/tree/main" 
               target="_blank" 
               rel="noopener noreferrer"
               className="block cursor-pointer"
             >
               <Code className="mb-4 h-8 w-8 text-sap-green" />
               <h3 className="mb-2 text-xl font-semibold text-sap-green">
-                AI-Powered Chatbot for Customer Support
+                TableTalk: AI-Powered Data Analysis Chatbot
               </h3>
               <p className="text-lg">
-                Developed a chatbot using GPT-3 and custom fine-tuning to handle customer inquiries, reducing response time by 60%.
+                Developed a proof-of-concept chatbot using Agentic AI to demonstrate intuitive data analysis and visualization capabilities.
               </p>
             </a>
             </AnimatedCard>

@@ -568,7 +568,7 @@ export default function EnhancedInteractivePortfolio() {
               Sentiment Analysis for Social Media Marketing
               </h3>
               <p className="text-lg">
-              Created a real-time sentiment analysis tool for Twitter data, helping businesses gauge public opinion on their products.
+              Created a real-time sentiment analysis tool for Twitter data, helping businesses gauge public opinion on their products
               </p>
             </a>
             </AnimatedCard>
@@ -584,7 +584,7 @@ export default function EnhancedInteractivePortfolio() {
                 TableTalk: AI-Powered Data Analysis Chatbot
               </h3>
               <p className="text-lg">
-                Developed a proof-of-concept chatbot using Agentic AI to demonstrate intuitive data analysis and visualization capabilities.
+                Developed a proof-of-concept chatbot using Agentic AI to demonstrate intuitive data analysis and visualization capabilities
               </p>
             </a>
             </AnimatedCard>
@@ -600,7 +600,7 @@ export default function EnhancedInteractivePortfolio() {
                 ㊟ Attention Mechanism! Japanese → English
               </h3>
               <p className="text-lg">
-                Developed a chatbot using GPT-3 and custom fine-tuning to handle customer inquiries, reducing response time by 60%.
+              Developed a seq-to-seq model with attention mechanism for Japanese-to-English translation, achieving a 0.57 BLEU score
               </p>
             </a>
             </AnimatedCard>
@@ -616,7 +616,7 @@ export default function EnhancedInteractivePortfolio() {
                 Global Top 5% in Google Quest Q&A Challenge
               </h3>
               <p className="text-lg">
-                Developed a chatbot using GPT-3 and custom fine-tuning to handle customer inquiries, reducing response time by 60%.
+                Created an ensemble of transformer models (BERT, ALBERT, RoBERTa, XLNet) to accurately predict StackExchange QA ratings
               </p>
             </a>
             </AnimatedCard>

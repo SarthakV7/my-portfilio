@@ -606,7 +606,7 @@ export default function EnhancedInteractivePortfolio() {
             </AnimatedCard>
             <AnimatedCard delay={0.5}>
             <a 
-              href="https://www.kaggle.com/code/sarthakvajpayee/top-6-linear-models-only" 
+              href="https://www.kaggle.com/code/sarthakvajpayee/top-4-4-bert-roberta-xlnet" 
               target="_blank" 
               rel="noopener noreferrer"
               className="block cursor-pointer"
